@@ -21,7 +21,9 @@ function calculateAndDisplay(fn) {
 
   const a = Number(rawA);
   const b = Number(rawB);
-  document.getElementById('result').textContent = fn(a, b);
+  
+  const a = Number(document.getElementById('a').value);
+  const b = Number(document.getElementById('b').value);
 }
 
 document.getElementById('btn-add')
